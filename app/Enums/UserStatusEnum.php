@@ -2,11 +2,11 @@
 
 namespace App\Enums;
 
-enum UserRoleEnum: string
+enum UserStatusEnum: string
 {
-    case ADMIN = 'admin';
-    case STUDENT = 'student';
-    case TUTOR = 'tutor';
+    case PENDING = 'pending';
+    case APPROVED = 'approved';
+    case DECLINED = 'declined';
 
 
     public static function toArray(): array {
