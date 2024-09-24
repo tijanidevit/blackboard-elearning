@@ -7,6 +7,7 @@ namespace App\Models;
 use App\Enums\UserRoleEnum;
 use App\Enums\UserStatusEnum;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -51,6 +52,23 @@ class User extends Authenticatable
 
     protected $attributes = [
         'role' => UserRoleEnum::STUDENT->value,
-        'status' => UserStatusEnum::APPROVED->value,
+        'status' => UserStatusEnum::ACTIVE->value,
     ];
+
+    public function tutor() : HasOne {
+        return $this->hasOne(Tutor::class);
+    }
+
+
+    public function isAdmin() : bool {
+        return $this->role == UserRoleEnum::ADMIN->value;
+    }
+
+    public function isTutor() : bool {
+        return $this->role == UserRoleEnum::TUTOR->value;
+    }
+
+    public function isStudent() : bool {
+        return $this->role == UserRoleEnum::STUDENT->value;
+    }
 }

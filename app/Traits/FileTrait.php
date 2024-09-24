@@ -12,9 +12,9 @@ trait FileTrait
     }
     public function uploadFile($folder, $file)
     {
-        return url(Storage::url(Storage::putFile("$folder", $file, 'public')));
+        return url(Storage::url(Storage::putFile("$folder", $file)));
         if (App::environment('local')) {
-            return url(Storage::url(Storage::putFile("$folder", $file, 'public')));
+            return url(Storage::url(Storage::putFile("$folder", $file)));
         } else {
             return $file->storeOnCloudinary($folder)->getSecurePath();
         }

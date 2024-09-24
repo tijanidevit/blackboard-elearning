@@ -1,36 +1,27 @@
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>@yield('title') Blackboard LMS</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.svg">
+
+    <script src="/assets/js/theme-script.js" type="1827eb6a9a8d96c130ce970e-text/javascript"></script>
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
 
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.3.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flaticon/2.1.1/css/flaticon.css" rel="stylesheet">
-
     <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="/assets/plugins/slick/slick-theme.css">
 
-    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/plugins/select2/css/select2.min.css">
 
-    <link rel="stylesheet" href="/assets/css/remixicon.css">
-
-    <link rel="stylesheet" href="/assets/css/odometer.min.css">
-
-    <link rel="stylesheet" href="/assets/css/aos.css">
+    <link rel="stylesheet" href="/assets/plugins/aos/aos.css">
 
     <link rel="stylesheet" href="/assets/css/style.css">
-
-    <link rel="stylesheet" href="/assets/css/dark.css">
-
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-
-    <title> @yield('title') - Blackboard E learning</title>
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 </head>

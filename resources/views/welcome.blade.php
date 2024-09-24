@@ -6,973 +6,1914 @@
 
 
 @section('body')
-
-
-<div class="banner-area">
-    <div class="banner-area">
-        <div class="hero-slider2 style2 owl-carousel owl-theme">
-            <div class="slider-item banner-bg-6">
-                <div class="container-fluid">
-                    <div class="slider-content style2">
-                        <h1>Welcome to Sanu University</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper
-                            mattis pulvinar dapibus dolor sit amet consec</p>
-                        <a href="courses.html" class="default-btn btn">Start a Journey <i class="flaticon-next"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-item banner-bg-7">
-                <div class="container-fluid">
-                    <div class="slider-content style2">
-                        <h1>Your Future Start With Sanu</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper
-                            mattis pulvinar dapibus dolor sit amet consec</p>
-                        <a href="courses.html" class="default-btn btn">Start a Journey <i class="flaticon-next"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-item banner-bg-8">
-                <div class="container-fluid">
-                    <div class="slider-content style2">
-                        <h1>Welcome to Sanu University</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper
-                            mattis pulvinar dapibus dolor sit amet consec</p>
-                        <a href="courses.html" class="default-btn btn">Start a Journey <i class="flaticon-next"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="eduction-area pb-70">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
-                    data-aos-once="true">
-                    <div class="single-education-card bg-1">
-                        <div class="edication-content">
-                            <div class="icon">
-                                <i class="flaticon-college"></i>
-                            </div>
-                            <a href="academics-details.html">
-                                <h3>Lifelong learning</h3>
-                            </a>
-                            <a href="academics-details.html" class="read-more-btn white-color">Graduate Education<i
-                                    class="flaticon-next"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400"
-                    data-aos-once="true">
-                    <div class="single-education-card bg-2">
-                        <div class="edication-content">
-                            <div class="icon">
-                                <i class="flaticon-student-with-graduation-cap"></i>
-                            </div>
-                            <a href="academics-details.html">
-                                <h3>Graduate Education</h3>
-                            </a>
-                            <a href="academics-details.html" class="read-more-btn white-color">Graduate Education<i
-                                    class="flaticon-next"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"
-                    data-aos-once="true">
-                    <div class="single-education-card bg-3">
-                        <div class="edication-content">
-                            <div class="icon">
-                                <i class="flaticon-college-graduation"></i>
-                            </div>
-                            <a href="academics-details.html">
-                                <h3>Undergraduate Education</h3>
-                            </a>
-                            <a href="academics-details.html" class="read-more-btn white-color">Graduate Education<i
-                                    class="flaticon-next"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800"
-                    data-aos-once="true">
-                    <div class="single-education-card bg-4">
-                        <div class="edication-content">
-                            <div class="icon">
-                                <i class="flaticon-athletics"></i>
-                            </div>
-                            <a href="academics-details.html">
-                                <h3>University Athletics Life</h3>
-                            </a>
-                            <a href="academics-details.html" class="read-more-btn white-color">Graduate Education<i
-                                    class="flaticon-next"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="campus-information-area pb-70">
+    <section class="home-slide d-flex align-items-center">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="campus-image">
-                        <img src="assets/images/campus-information/campus-2.jpg" alt="Image">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="campus-content style-2">
-                        <div class="campus-title">
-                            <h2>Campus Information</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation
-                                ulla mco laboris nisi ut </p>
+            <div class="row ">
+                <div class="col-md-7">
+                    <div class="home-slide-face aos" data-aos="fade-up">
+                        <div class="home-slide-text ">
+                            <h5>The Leader in Online Learning</h5>
+                            <h1>Engaging & Accessible Online Courses For All</h1>
+                            <p>Own your future learning new skills online</p>
                         </div>
-                        <div class="list">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <ul>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Best lecturers</p>
-                                        </li>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Best courses</p>
-                                        </li>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Innovative ideas</p>
-                                        </li>
-                                    </ul>
+                        <div class="banner-content">
+                            <form class="form" action="course-list.html">
+                                <div class="form-inner">
+                                    <div class="input-group">
+                                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                        <input type="email" class="form-control"
+                                            placeholder="Search School, Online eductional centers, etc">
+                                        <span class="drop-detail">
+                                            <select class="form-select select">
+                                                <option>Category</option>
+                                                <option>Angular</option>
+                                                <option>Node Js</option>
+                                                <option>React</option>
+                                                <option>Python</option>
+                                            </select>
+                                        </span>
+                                        <button class="btn btn-primary sub-btn" type="submit"><i
+                                                class="fas fa-arrow-right"></i></button>
+                                    </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <ul>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Personal development</p>
-                                        </li>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Synchronous learning</p>
-                                        </li>
-                                        <li>
-                                            <i class="ri-check-fill"></i>
-                                            <p>Live classes and events</p>
-                                        </li>
-                                    </ul>
+                            </form>
+                        </div>
+                        <div class="trust-user">
+                            <p>Trusted by over 15K Users <br>worldwide since 2024</p>
+                            <div class="trust-rating d-flex align-items-center">
+                                <div class="rate-head">
+                                    <h2><span>1000</span>+</h2>
+                                </div>
+                                <div class="rating d-flex align-items-center">
+                                    <h2 class="d-inline-block average-rating">4.4</h2>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="counter">
-                            <div class="row">
-                                <div class="col-lg-4 col-4">
-                                    <div class="counter-card">
-                                        <h1>
-                                            <span class="odometer" data-count="65">00</span>
-                                            <span class="target">+</span>
-                                        </h1>
-                                        <p>Years Of Experience</p>
+                    </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-center">
+                    <div class="girl-slide-img aos" data-aos="fade-up">
+                        <img src="/assets/img/object.png" alt="Img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section student-course">
+        <div class="container">
+            <div class="course-widget">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="course-full-width">
+                            <div class="blur-border course-radius align-items-center aos" data-aos="fade-up">
+                                <div class="online-course d-flex align-items-center">
+                                    <div class="course-img">
+                                        <img src="/assets/img/pencil-icon.svg" alt="Img">
                                     </div>
-                                </div>
-                                <div class="col-lg-4 col-4">
-                                    <div class="counter-card">
-                                        <h1>
-                                            <span class="odometer" data-count="30">00</span>
-                                            <span class="target heading-color">k</span><span class="target">+</span>
-                                        </h1>
-                                        <p>Global Students</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-4">
-                                    <div class="counter-card">
-                                        <h1>
-                                            <span class="odometer" data-count="52">00</span>
-                                            <span class="target">+</span>
-                                        </h1>
-                                        <p>Student Nationalities</p>
+                                    <div class="course-inner-content">
+                                        <h4><span>10</span>K</h4>
+                                        <p>Online Courses</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="campus-life.html" class="default-btn btn">Start your application<i
-                                class="flaticon-next"></i></a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="courses-area pt-100 pb-70 bg-f4f6f9">
-        <div class="container">
-            <div class="section-title">
-                <h2>Free Courses</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
-            </div>
-            <div class="courses-slider style-2 owl-carousel owl-theme">
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-1.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Python Programming For Data Science</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-1.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Jessica Hamson</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-2.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Databases: Advanced Topics In SQL</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-2.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Christoph Baldwin</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-3.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Analyzing Data With MS Excel & Excel</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-3.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Morgen Matthias</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-1.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Python Programming For Data Science</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-1.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Jessica Hamson</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-2.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Databases: Advanced Topics In SQL</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-2.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Christoph Baldwin</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-3.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Analyzing Data With MS Excel & Excel</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-3.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Morgen Matthias</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-courses-card style3">
-                    <div class="courses-img">
-                        <a href="courses-details.html"><img src="assets/images/courses/courses-2.jpg" alt="Image"></a>
-                    </div>
-                    <div class="courses-content">
-                        <div class="list-1">
-                            <ul class="d-flex justify-content-between">
-                                <li><i class="flaticon-graduation"></i>321</li>
-                                <li><i class="flaticon-bubble-chat"></i>1.2k</li>
-                            </ul>
-                        </div>
-                        <a href="courses-details.html">
-                            <h3>Databases: Advanced Topics In SQL</h3>
-                        </a>
-                        <div class="admin-profile">
-                            <img src="assets/images/courses/admin-2.jpg" alt="Image">
-                            <p>With <a href="courses-details.html">Christoph Baldwin</a></p>
-                        </div>
-                        <div class="bottom-content">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <ul>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li><i class="ri-star-fill"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                        <li class="blank"><i class="ri-star-line"></i></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Free</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="campus-life-area ptb-100">
-        <div class="container">
-            <div class="section-title">
-                <h2>Campus Life</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
-            </div>
-            <div class="campus-slider2 owl-carousel owl-theme">
-                <div class="single-campus-card style-3">
-                    <div class="img">
-                        <a href="campus-life.html"><img src="assets/images/campus-life/campus-life-1.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="campus-content">
-                        <span>Art & Culture</span>
-                        <a href="campus-life.html">
-                            <h3>Art, exercise and escapism in nature</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="single-campus-card style-3">
-                    <div class="img">
-                        <a href="campus-life.html"><img src="assets/images/campus-life/campus-life-2.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="campus-content">
-                        <span>Athletics & Fitness</span>
-                        <a href="campus-life.html">
-                            <h3>Improve Athletic Performance
-                                Tips From Sanu</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="single-campus-card style-3">
-                    <div class="img">
-                        <a href="campus-life.html"><img src="assets/images/campus-life/campus-life-3.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="campus-content">
-                        <span>Student Life</span>
-                        <a href="campus-life.html">
-                            <h3>Why I Changed My Mind About Career Connections</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="single-campus-card style-3">
-                    <div class="img">
-                        <a href="campus-life.html"><img src="assets/images/campus-life/campus-life-2.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="campus-content">
-                        <span>Athletics & Fitness</span>
-                        <a href="campus-life.html">
-                            <h3>Improve Athletic Performance
-                                Tips From Sanu</h3>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="admisssion-area ptb-100 admission-bg">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="admission-left-content">
-                        <h2>You're Learning Free Started Today!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
-                            mattis</p>
-                        <a href="admission.html" class="default-btn btn">More on admission<i
-                                class="flaticon-next"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="admission-right-content">
-                        <ul>
-                            <li>
-                                <p>Watch Video</p>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <a class="popup-youtube play-btn"
-                                        href="https://www.youtube.com/watch?v=6WQCJx_vEX4"><i
-                                            class="ri-play-fill"></i></a>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="course-full-width">
+                            <div class="blur-border course-radius aos" data-aos="fade-up">
+                                <div class="online-course d-flex align-items-center">
+                                    <div class="course-img">
+                                        <img src="/assets/img/cources-icon.svg" alt="Img">
+                                    </div>
+                                    <div class="course-inner-content">
+                                        <h4><span>200</span>+</h4>
+                                        <p>Expert Tutors</p>
+                                    </div>
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="course-full-width">
+                            <div class="blur-border course-radius aos" data-aos="fade-up">
+                                <div class="online-course d-flex align-items-center">
+                                    <div class="course-img">
+                                        <img src="/assets/img/certificate-icon.svg" alt="Img">
+                                    </div>
+                                    <div class="course-inner-content">
+                                        <h4><span>6</span>K+</h4>
+                                        <p>Ceritified Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="course-full-width">
+                            <div class="blur-border course-radius aos" data-aos="fade-up">
+                                <div class="online-course d-flex align-items-center">
+                                    <div class="course-img">
+                                        <img src="/assets/img/gratuate-icon.svg" alt="Img">
+                                    </div>
+                                    <div class="course-inner-content">
+                                        <h4><span>60</span>K +</h4>
+                                        <p>Online Students</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="health-care-area pt-100 pb-70 bg-f4f6f9">
+    <section class="section how-it-works">
         <div class="container">
-            <div class="section-title">
-                <h2>Health Care</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
+            <div class="section-header aos" data-aos="fade-up">
+                <div class="section-sub-head">
+                    <span>Favourite Course</span>
+                    <h2>Top Category</h2>
+                </div>
+                <div class="all-btn all-category d-flex align-items-center">
+                    <a href="job-category.html" class="btn btn-primary">All Categories</a>
+                </div>
             </div>
-            <div class="health-care-slider owl-carousel owl-theme">
-                <div class="single-health-care-card style-3">
-                    <div class="img">
-                        <a href="health-care-details.html"><img src="assets/images/health-care/health-care-5.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="health-care-content">
-                        <a href="health-care-details.html">
-                            <h3>Happiness begins with good health</h3>
-                        </a>
-                        <a href="health-care.html" class="read-more-btn">Read More on healthcare<i
-                                class="flaticon-next"></i></a>
-                    </div>
-                </div>
-                <div class="single-health-care-card style-3">
-                    <div class="img">
-                        <a href="health-care-details.html"><img src="assets/images/health-care/health-care-6.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="health-care-content">
-                        <a href="health-care-details.html">
-                            <h3>When Life Depends on Medical Technology</h3>
-                        </a>
-                        <a href="health-care.html" class="read-more-btn">Read More on healthcare<i
-                                class="flaticon-next"></i></a>
+            <div class="section-text aos" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida
+                    maecenas augue elementum et neque. Suspendisse imperdiet.</p>
+            </div>
+            <div class="owl-carousel mentoring-course owl-theme aos" data-aos="fade-up">
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Angular Development</div>
+                            </div>
+                        </div>
+                        <p>40 Instructors</p>
                     </div>
                 </div>
-                <div class="single-health-care-card style-3">
-                    <div class="img">
-                        <a href="health-care-details.html"><img src="assets/images/health-care/health-care-7.jpg"
-                                alt="Image"></a>
-                    </div>
-                    <div class="health-care-content">
-                        <a href="health-care-details.html">
-                            <h3>Making a meaningful difference in patients’ lives.</h3>
-                        </a>
-                        <a href="health-care.html" class="read-more-btn">Read More on healthcare<i
-                                class="flaticon-next"></i></a>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-01.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Docker Development</div>
+                            </div>
+                        </div>
+                        <p>45 Instructors</p>
                     </div>
                 </div>
-                <div class="single-health-care-card style-3">
-                    <div class="img">
-                        <a href="health-care-details.html"><img src="assets/images/health-care/health-care-6.jpg"
-                                alt="Image"></a>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-02.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Node JS Frontend</div>
+                            </div>
+                        </div>
+                        <p>40 Instructors</p>
                     </div>
-                    <div class="health-care-content">
-                        <a href="health-care-details.html">
-                            <h3>When Life Depends on Medical Technology</h3>
-                        </a>
-                        <a href="health-care.html" class="read-more-btn">Read More on healthcare<i
-                                class="flaticon-next"></i></a>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-03.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Swift Development</div>
+                            </div>
+                        </div>
+                        <p>23 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-04.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Python Development</div>
+                            </div>
+                        </div>
+                        <p>30 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-05.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">React<br> Native</div>
+                            </div>
+                        </div>
+                        <p>80 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-04.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Angular Development</div>
+                            </div>
+                        </div>
+                        <p>40 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-01.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Docker Development</div>
+                            </div>
+                        </div>
+                        <p>45 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-02.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Node JS Frontend</div>
+                            </div>
+                        </div>
+                        <p>40 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-03.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Swift Development</div>
+                            </div>
+                        </div>
+                        <p>23 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-04.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Python Development</div>
+                            </div>
+                        </div>
+                        <p>30 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-01.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Docker Development</div>
+                            </div>
+                        </div>
+                        <p>45 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-02.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Node JS Frontend</div>
+                            </div>
+                        </div>
+                        <p>40 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-03.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Swift Development</div>
+                            </div>
+                        </div>
+                        <p>23 Instructors</p>
+                    </div>
+                </div>
+                <div class="feature-box text-center ">
+                    <div class="feature-bg">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <img src="/assets/img/categories-icon-04.png" alt="Img">
+                            </div>
+                            <div class="feature-cont">
+                                <div class="feature-text">Python Development</div>
+                            </div>
+                        </div>
+                        <p>30 Instructors</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="events-area pt-100 pb-70">
+    <section class="section new-course">
         <div class="container">
-            <div class="section-title">
-                <h2>Events</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
+            <div class="section-header aos" data-aos="fade-up">
+                <div class="section-sub-head">
+                    <span>What’s New</span>
+                    <h2>Featured Courses</h2>
+                </div>
+                <div class="all-btn all-category d-flex align-items-center">
+                    <a href="course-list.html" class="btn btn-primary">All Courses</a>
+                </div>
             </div>
-            <div class="events-slider owl-carousel owl-theme">
-                <div class="single-events-card style-3 mlr-5">
-                    <div class="events-image">
-                        <a href="events-details.html"><img src="assets/images/events/events-1.jpg" alt="Image"></a>
-                    </div>
-                    <div class="events-content">
-                        <a href="events-details.html">
-                            <h3>Planning and Facilitating Effective Meetings</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet cons ectetur ad elit tellus luctus nec ullamc</p>
-                        <div class="date-and-read-more">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <p><i class="ri-calendar-2-line"></i>April 11, 2024</p>
-                                </li>
-                                <li>
-                                    <a href="events-details.html" class="read-more-btn active">Read Article<i
-                                            class="flaticon-next"></i></a>
-                                </li>
-                            </ul>
+            <div class="section-text aos" data-aos="fade-up">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan
+                    bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
+            </div>
+            <div class="course-feature">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-01.jpg">
+                                    </a>
+                                    <div class="price">
+                                        <h3>$300 <span>$99.00</span></h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user1.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">Nicole Brown</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">Information
+                                            About UI/UX Design Degree</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>12+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>9hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.0</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="single-events-card style-3 mlr-5">
-                    <div class="events-image">
-                        <a href="events-details.html"><img src="assets/images/events/events-2.jpg" alt="Image"></a>
-                    </div>
-                    <div class="events-content">
-                        <a href="events-details.html">
-                            <h3>Regular WordPress Meetup In New Jersey, USA</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet cons ectetur ad elit tellus luctus nec ullamc</p>
-                        <div class="date-and-read-more">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <p><i class="ri-calendar-2-line"></i>April 11, 2024</p>
-                                </li>
-                                <li>
-                                    <a href="events-details.html" class="read-more-btn active">Read Article<i
-                                            class="flaticon-next"></i></a>
-                                </li>
-                            </ul>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-02.jpg">
+                                    </a>
+                                    <div class="price">
+                                        <h3>$400 <span>$99.00</span></h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user2.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">Jenis R.</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">Wordpress for
+                                            Beginners - Master Wordpress Quickly</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>11+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>6hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.3</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="single-events-card style-3 mlr-5">
-                    <div class="events-image">
-                        <a href="events-details.html"><img src="assets/images/events/events-3.jpg" alt="Image"></a>
-                    </div>
-                    <div class="events-content">
-                        <a href="events-details.html">
-                            <h3>Monday Night Concert In Lake View,Mountain City</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet cons ectetur ad elit tellus luctus nec ullamc</p>
-                        <div class="date-and-read-more">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <p><i class="ri-calendar-2-line"></i>April 11, 2024</p>
-                                </li>
-                                <li>
-                                    <a href="events-details.html" class="read-more-btn active">Read Article<i
-                                            class="flaticon-next"></i></a>
-                                </li>
-                            </ul>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-03.jpg">
+                                    </a>
+                                    <div class="price combo">
+                                        <h3>FREE</h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user5.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">Jesse Stevens</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">Sketch from A
+                                            to
+                                            Z (2024): Become an app designer</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>16+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>12hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.5</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="single-events-card style-3 mlr-5">
-                    <div class="events-image">
-                        <a href="events-details.html"><img src="assets/images/events/events-1.jpg" alt="Image"></a>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-04.jpg">
+                                    </a>
+                                    <div class="price">
+                                        <h3>$500 <span>$99.00</span></h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user4.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">Nicole Brown</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">Learn Angular
+                                            Fundamentals From beginning to advance lavel</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>10+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>8hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.2</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="events-content">
-                        <a href="events-details.html">
-                            <h3>Planning and Facilitating Effective Meetings</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet cons ectetur ad elit tellus luctus nec ullamc</p>
-                        <div class="date-and-read-more">
-                            <ul class="d-flex justify-content-between">
-                                <li>
-                                    <p><i class="ri-calendar-2-line"></i>April 11, 2024</p>
-                                </li>
-                                <li>
-                                    <a href="events-details.html" class="read-more-btn active">Read Article<i
-                                            class="flaticon-next"></i></a>
-                                </li>
-                            </ul>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-05.jpg">
+                                    </a>
+                                    <div class="price">
+                                        <h3>$300 <span>$99.00</span></h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user3.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">John Smith</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">Build
+                                            Responsive
+                                            Real World Websites with HTML5 and CSS3</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>13+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>10hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.0</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="course-box d-flex aos" data-aos="fade-up">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="course-details.html">
+                                        <img class="img-fluid" alt="Img" src="/assets/img/course/course-06.jpg">
+                                    </a>
+                                    <div class="price combo">
+                                        <h3>FREE</h3>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <div class="course-group d-flex">
+                                        <div class="course-group-img d-flex">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user6.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                            <div class="course-name">
+                                                <h4><a href="instructor-profile.html">Stella Johnson</a></h4>
+                                                <p>Instructor</p>
+                                            </div>
+                                        </div>
+                                        <div class="course-share d-flex align-items-center justify-content-center">
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <h3 class="title instructor-text"><a href="course-details.html">C# Developers
+                                            Double Your Coding Speed with Visual Studio</a></h3>
+                                    <div class="course-info d-flex align-items-center">
+                                        <div class="rating-img d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-01.svg" alt="Img">
+                                            <p>7+ Lesson</p>
+                                        </div>
+                                        <div class="course-view d-flex align-items-center">
+                                            <img src="/assets/img/icon/icon-02.svg" alt="Img">
+                                            <p>7hr 30min</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="rating m-0">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="d-inline-block average-rating"><span>4.6</span>
+                                                (15)</span>
+                                        </div>
+                                        <div class="all-btn all-category d-flex align-items-center">
+                                            <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="podcasts-area pt-100 pb-70 bg-f4f6f9">
+    <section class="section master-skill">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-title style2">
-                        <h2>Our Podcasts</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper
-                            mattis </p>
+                <div class="col-lg-7 col-md-12">
+                    <div class="section-header aos" data-aos="fade-up">
+                        <div class="section-sub-head">
+                            <span>What’s New</span>
+                            <h2>Master the skills to drive your career</h2>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
-                            data-aos-once="true">
-                            <div class="single-podcasts-card style3">
-                                <div class="podcasts-image">
-                                    <img src="assets/images/podcasts/podcasts-4.jpg" alt="Image">
-                                    <a class="popup-youtube play-btn"
-                                        href="https://www.youtube.com/watch?v=6WQCJx_vEX4"><i
-                                            class="ri-play-fill"></i></a>
-                                    <div class="episodes">
-                                        <p>Episodes: 01</p>
-                                    </div>
-                                </div>
-                                <div class="podcast-content">
-                                    <h3>Finding Moments Of Joy In A Challenging Year</h3>
-                                    <div class="date">
-                                        <p>April 10, 2024</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400"
-                            data-aos-once="true">
-                            <div class="single-podcasts-card style3">
-                                <div class="podcasts-image">
-                                    <img src="assets/images/podcasts/podcasts-5.jpg" alt="Image">
-                                    <a class="popup-youtube play-btn"
-                                        href="https://www.youtube.com/watch?v=6WQCJx_vEX4"><i
-                                            class="ri-play-fill"></i></a>
-                                    <div class="episodes">
-                                        <p>Episodes: 03</p>
-                                    </div>
-                                </div>
-                                <div class="podcast-content">
-                                    <h3>Arranging and enjoying life through work</h3>
-                                    <div class="date">
-                                        <p>April 10, 2024</p>
+                    <div class="section-text aos" data-aos="fade-up">
+                        <p>Get certified, master modern tech skills, and level up your career — whether you’re
+                            starting out or a seasoned pro. 95% of eLearning learners report our hands-on content
+                            directly helped their careers.</p>
+                    </div>
+                    <div class="career-group aos" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 d-flex">
+                                <div class="certified-group blur-border d-flex">
+                                    <div class="get-certified d-flex align-items-center">
+                                        <div class="blur-box">
+                                            <div class="certified-img ">
+                                                <img src="/assets/img/icon/icon-1.svg" alt="Img" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <p>Stay motivated with engaging instructors</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"
-                            data-aos-once="true">
-                            <div class="single-podcasts-card style3">
-                                <div class="podcasts-image">
-                                    <img src="assets/images/podcasts/podcasts-6.jpg" alt="Image">
-                                    <a class="popup-youtube play-btn"
-                                        href="https://www.youtube.com/watch?v=6WQCJx_vEX4"><i
-                                            class="ri-play-fill"></i></a>
-                                    <div class="episodes">
-                                        <p>Episodes: 08</p>
-                                    </div>
-                                </div>
-                                <div class="podcast-content">
-                                    <h3>Proved, only action can bring success</h3>
-                                    <div class="date">
-                                        <p>April 10, 2024</p>
+                            <div class="col-lg-6 col-md-6 d-flex">
+                                <div class="certified-group blur-border d-flex">
+                                    <div class="get-certified d-flex align-items-center">
+                                        <div class="blur-box">
+                                            <div class="certified-img ">
+                                                <img src="/assets/img/icon/icon-2.svg" alt="Img" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <p>Keep up with in the latest in cloud</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800"
-                            data-aos-once="true">
-                            <div class="single-podcasts-card style3">
-                                <div class="podcasts-image">
-                                    <img src="assets/images/podcasts/podcasts-7.jpg" alt="Image">
-                                    <a class="popup-youtube play-btn"
-                                        href="https://www.youtube.com/watch?v=6WQCJx_vEX4"><i
-                                            class="ri-play-fill"></i></a>
-                                    <div class="episodes">
-                                        <p>Episodes: 11</p>
+                            <div class="col-lg-6 col-md-6 d-flex">
+                                <div class="certified-group blur-border d-flex">
+                                    <div class="get-certified d-flex align-items-center">
+                                        <div class="blur-box">
+                                            <div class="certified-img ">
+                                                <img src="/assets/img/icon/icon-3.svg" alt="Img" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <p>Get certified with 100+ certification courses</p>
                                     </div>
                                 </div>
-                                <div class="podcast-content">
-                                    <h3>Finding happy moments through challenges</h3>
-                                    <div class="date">
-                                        <p>April 10, 2024</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 d-flex">
+                                <div class="certified-group blur-border d-flex">
+                                    <div class="get-certified d-flex align-items-center">
+                                        <div class="blur-box">
+                                            <div class="certified-img ">
+                                                <img src="/assets/img/icon/icon-4.svg" alt="Img" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <p>Build skills your way, from labs to courses</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="categories style-2">
-                        <h3>Categories</h3>
-                        <ul>
-                            <li><a href="#"><i class="flaticon-briefcase"></i>Business</a></li>
-                            <li><a href="#"><i class="flaticon-fashion"></i>Fashion</a></li>
-                            <li><a href="#"><i class="flaticon-writing-tool"></i>writing</a></li>
-                            <li><a href="#"><i class="flaticon-web-development"></i>Development</a></li>
-                            <li><a href="#"><i class="flaticon-audio-speaker"></i>Marketing</a></li>
-                        </ul>
-                    </div>
-                    <div class="subscribe-area">
-                        <div class="top-content">
-                            <i class="flaticon-email"></i>
-                            <h3>Subscribe To Newsletter</h3>
-                            <p>Get updates to news & events</p>
-                        </div>
-                        <form class="newsletter-form" data-toggle="validator">
-                            <input type="email" class="form-control" placeholder="Your Email" name="EMAIL" required
-                                autocomplete="off">
-                            <button class="default-btn" type="submit">
-                                Subscribe
-                            </button>
-                            <div id="validator-newsletter" class="form-result"></div>
-                        </form>
+                <div class="col-lg-5 col-md-12 d-flex align-items-end">
+                    <div class="career-img aos" data-aos="fade-up">
+                        <img src="/assets/img/join.png" alt="Img" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="students-stories-area pt-100 pb-70">
+    <section class="section trend-course">
         <div class="container">
-            <div class="section-title">
-                <h2>Check Student stories</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
-                    data-aos-once="true">
-                    <div class="single-stories-card style2">
-                        <div class="stories-content">
-                            <h3>Why I choose Sanu_Freshman Student</h3>
-                        </div>
-                        <iframe src="https://www.youtube.com/embed/dT9uXvsH6EU" title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
+            <div class="section-header aos" data-aos="fade-up">
+                <div class="section-sub-head">
+                    <span>What’s New</span>
+                    <h2>TRENDING COURSES</h2>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400"
-                    data-aos-once="true">
-                    <div class="single-stories-card style2">
-                        <div class="stories-content">
-                            <h3>Why I choose Sanu University And Teachers</h3>
-                        </div>
-                        <iframe src="https://www.youtube.com/embed/TM9gjl-8X-E" title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"
-                    data-aos-once="true">
-                    <div class="single-stories-card style2">
-                        <div class="stories-content">
-                            <h3>Why I choose Sanu Campus And Environment</h3>
-                        </div>
-                        <iframe src="https://www.youtube.com/embed/yeZpJ6lJC54" title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
+                <div class="all-btn all-category d-flex align-items-center">
+                    <a href="course-list.html" class="btn btn-primary">All Courses</a>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="lates-news-area pt-100 pb-70 bg-f4f6f9">
-        <div class="container">
-            <div class="section-title">
-                <h2>Latest News</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis
-                </p>
+            <div class="section-text aos" data-aos="fade-up">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan
+                    bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
             </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-7">
-                    <div class="single-news-card style3" data-aos="fade-up" data-aos-duration="1200"
-                        data-aos-delay="200" data-aos-once="true">
-                        <div class="row align-items-center">
-                            <div class="col-lg-5 col-md-5">
-                                <div class="news-img">
-                                    <a href="news-details.html"><img src="assets/images/news/news-1.jpg"
-                                            alt="Image"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-7">
-                                <div class="news-content">
-                                    <div class="list">
-                                        <ul>
-                                            <li><i class="flaticon-user"></i>By <a href="news-details.html">Admin</a>
-                                            </li>
-                                            <li><i class="flaticon-tag"></i>Social Sciences</li>
-                                        </ul>
-                                    </div>
-                                    <a href="news-details.html">
-                                        <h3>Professor Tom Comments On The Volunteer B. Snack Brand</h3>
-                                    </a>
-                                    <a href="news-details.html" class="read-more-btn">read More<i
-                                            class="flaticon-next"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-news-card style3" data-aos="fade-up" data-aos-duration="1200"
-                        data-aos-delay="400" data-aos-once="true">
-                        <div class="row align-items-center">
-                            <div class="col-lg-5 col-md-5">
-                                <div class="news-img">
-                                    <a href="news-details.html"><img src="assets/images/news/news-2.jpg"
-                                            alt="Image"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-7">
-                                <div class="news-content">
-                                    <div class="list">
-                                        <ul>
-                                            <li><i class="flaticon-user"></i>By <a href="news-details.html">Admin</a>
-                                            </li>
-                                            <li><i class="flaticon-tag"></i>Social Sciences</li>
-                                        </ul>
-                                    </div>
-                                    <a href="news-details.html">
-                                        <h3>How To Use Technology To Adapt Your Talent To The World</h3>
-                                    </a>
-                                    <a href="news-details.html" class="read-more-btn">read More<i
-                                            class="flaticon-next"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"
-                    data-aos-once="true">
-                    <div class="single-news-card style2">
-                        <div class="news-img">
-                            <a href="news-details.html"><img src="assets/images/news/news-4.jpg" alt="Image"></a>
-                        </div>
-                        <div class="news-content">
-                            <div class="list">
-                                <ul>
-                                    <li><i class="flaticon-user"></i>By <a href="news-details.html">Admin</a></li>
-                                    <li><i class="flaticon-tag"></i>Social Sciences</li>
-                                </ul>
-                            </div>
-                            <a href="news-details.html">
-                                <h3>Here Are The Things To Look For When Selecting Course</h3>
+            <div class="owl-carousel trending-course owl-theme aos" data-aos="fade-up">
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-07.jpg">
                             </a>
-                            <a href="news-details.html" class="read-more-btn">read More<i class="flaticon-next"></i></a>
+                            <div class="price">
+                                <h3>$200 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Michael</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Learn JavaScript and Express to
+                                    become a
+                                    professional JavaScript</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>13+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>10hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-08.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$300 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user2.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Smith</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Responsive Web Design Essentials
+                                    HTML5
+                                    CSS3 and Bootstrap</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>10+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>11hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.2</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-05.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$100 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user3.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">Lavern M.</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">The Complete App Design Course - UX,
+                                    UI
+                                    and Design Thinking</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>8+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>8hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.3</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-08.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$200 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user5.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Smith</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Build Responsive Real World Websites
+                                    with HTML5 and CSS3</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>13+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>10hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-07.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$300 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user2.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Smith</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Responsive Web Design Essentials
+                                    HTML5
+                                    CSS3 and Bootstrap</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>10+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>11hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.5</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-09.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$100 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user4.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">Lavern M.</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">The Complete App Design Course - UX,
+                                    UI
+                                    and Design Thinking</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>8+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>8hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-08.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$200 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user1.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Michael</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Learn JavaScript and Express to
+                                    become a
+                                    professional JavaScript</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>13+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>10hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box trend-box">
+                    <div class="product trend-product">
+                        <div class="product-img">
+                            <a href="course-details.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/course/course-09.jpg">
+                            </a>
+                            <div class="price">
+                                <h3>$300 <span>$99.00</span></h3>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="course-group d-flex">
+                                <div class="course-group-img d-flex">
+                                    <a href="instructor-profile.html"><img src="/assets/img/user/user3.jpg" alt="Img"
+                                            class="img-fluid"></a>
+                                    <div class="course-name">
+                                        <h4><a href="instructor-profile.html">John Smith</a></h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                                <div class="course-share d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="title"><a href="course-details.html">Responsive Web Design Essentials
+                                    HTML5
+                                    CSS3 and Bootstrap</a></h3>
+                            <div class="course-info d-flex align-items-center">
+                                <div class="rating-img d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-01.svg" alt="Img" class="img-fluid">
+                                    <p>10+ Lesson</p>
+                                </div>
+                                <div class="course-view d-flex align-items-center">
+                                    <img src="/assets/img/icon/icon-02.svg" alt="Img" class="img-fluid">
+                                    <p>11hr 30min</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="rating m-0">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                </div>
+                                <div class="all-btn all-category d-flex align-items-center">
+                                    <a href="checkout.html" class="btn btn-primary">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-instructors">
+                <div class="section-header aos" data-aos="fade-up">
+                    <div class="section-sub-head feature-head text-center">
+                        <h2>Featured Instructor</h2>
+                        <div class="section-text aos" data-aos="fade-up">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
+                                accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel instructors-course owl-theme aos" data-aos="fade-up">
+                    <div class="instructors-widget">
+                        <div class="instructors-img ">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user7.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">David Lee</a></h5>
+                            <p>Web Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>50 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user8.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Daziy Millar</a></h5>
+                            <p>PHP Expert</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group yellow"></i>
+                                <span>50 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user9.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Patricia Mendoza</a></h5>
+                            <p>Web Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group violet"></i>
+                                <span>50 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user10.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Skyler Whites</a></h5>
+                            <p>UI Designer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group orange"></i>
+                                <span>50 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img ">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user7.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Patricia Mendoza</a></h5>
+                            <p>Java Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>40 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user8.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">David Lee</a></h5>
+                            <p>Web Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>50 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img ">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user9.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Daziy Millar</a></h5>
+                            <p>PHP Expert</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>40 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img ">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user10.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Patricia Mendoza</a></h5>
+                            <p>Web Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>20 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img ">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user7.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Skyler Whites</a></h5>
+                            <p>UI Designer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>30 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instructors-widget">
+                        <div class="instructors-img">
+                            <a href="instructor-list.html">
+                                <img class="img-fluid" alt="Img" src="/assets/img/user/user8.jpg">
+                            </a>
+                        </div>
+                        <div class="instructors-content text-center">
+                            <h5><a href="instructor-profile.html">Patricia Mendoza</a></h5>
+                            <p>Java Developer</p>
+                            <div class="student-count d-flex justify-content-center">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>40 Students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section lead-companies">
+        <div class="container">
+            <div class="section-header aos" data-aos="fade-up">
+                <div class="section-sub-head feature-head text-center">
+                    <span>Trusted By</span>
+                    <h2>500+ Leading Universities And Companies</h2>
+                </div>
+            </div>
+            <div class="lead-group aos" data-aos="fade-up">
+                <div class="lead-group-slider owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-01.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-02.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-03.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-04.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-05.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="lead-img">
+                            <img class="img-fluid" alt="Img" src="/assets/img/lead-06.png">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <section class="section share-knowledge">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="knowledge-img aos" data-aos="fade-up">
+                        <img src="/assets/img/share.png" alt="Img" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="join-mentor aos" data-aos="fade-up">
+                        <h2>Want to share your knowledge? Join us a Mentor</h2>
+                        <p>High-definition video is video of higher resolution and quality than standard-definition.
+                            While there is no standardized meaning for high-definition, generally any video.</p>
+                        <ul class="course-list">
+                            <li><i class="fa-solid fa-circle-check"></i>Best Courses</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Top rated Instructors</li>
+                        </ul>
+                        <div class="all-btn all-category d-flex align-items-center">
+                            <a href="instructor-list.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section user-love">
+        <div class="container">
+            <div class="section-header white-header aos" data-aos="fade-up">
+                <div class="section-sub-head feature-head text-center">
+                    <span>Check out these real reviews</span>
+                    <h2>Users-love-us Don't take it from us.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonial-four">
+        <div class="review">
+            <div class="container">
+                <div class="testi-quotes">
+                    <img src="/assets/img/qute.png" alt="Img">
+                </div>
+                <div class="mentor-testimonial lazy slider aos" data-aos="fade-up" data-sizes="50vw ">
+                    <div class="d-flex justify-content-center">
+                        <div class="testimonial-all d-flex justify-content-center">
+                            <div class="testimonial-two-head text-center align-items-center d-flex">
+                                <div class="testimonial-four-saying ">
+                                    <div class="testi-right">
+                                        <img src="/assets/img/qute-01.png" alt="Img">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to
+                                        make a type specimen book.</p>
+                                    <div class="four-testimonial-founder">
+                                        <div class="fount-about-img">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user1.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                        </div>
+                                        <h3><a href="instructor-profile.html">Daziy Millar</a></h3>
+                                        <span>Founder of Awesomeux Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="testimonial-all d-flex justify-content-center">
+                            <div class="testimonial-two-head text-center align-items-center d-flex">
+                                <div class="testimonial-four-saying ">
+                                    <div class="testi-right">
+                                        <img src="/assets/img/qute-01.png" alt="Img">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to
+                                        make a type specimen book.</p>
+                                    <div class="four-testimonial-founder">
+                                        <div class="fount-about-img">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user3.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                        </div>
+                                        <h3><a href="instructor-profile.html">john smith</a></h3>
+                                        <span>Founder of Awesomeux Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="testimonial-all d-flex justify-content-center">
+                            <div class="testimonial-two-head text-center align-items-center d-flex">
+                                <div class="testimonial-four-saying ">
+                                    <div class="testi-right">
+                                        <img src="/assets/img/qute-01.png" alt="Img">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to
+                                        make a type specimen book.</p>
+                                    <div class="four-testimonial-founder">
+                                        <div class="fount-about-img">
+                                            <a href="instructor-profile.html"><img src="/assets/img/user/user2.jpg"
+                                                    alt="Img" class="img-fluid"></a>
+                                        </div>
+                                        <h3><a href="instructor-profile.html">David Lee</a></h3>
+                                        <span>Founder of Awesomeux Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section become-instructors aos" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 d-flex">
+                    <div class="student-mentor cube-instuctor ">
+                        <h4>Become An Instructor</h4>
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="top-instructors">
+                                    <p>Top instructors from around the world teach millions of students on
+                                        Mentoring.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12">
+                                <div class="mentor-img">
+                                    <img class="img-fluid" alt="Img" src="/assets/img/icon/become-02.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex">
+                    <div class="student-mentor yellow-mentor">
+                        <h4>Transform Access To Education</h4>
+                        <div class="row">
+                            <div class="col-lg-8 col-md-12">
+                                <div class="top-instructors">
+                                    <p>Create an account to receive our newsletter, course recommendations and
+                                        promotions.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="mentor-img">
+                                    <img class="img-fluid" alt="Img" src="/assets/img/icon/become-01.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section latest-blog">
+        <div class="container">
+            <div class="section-header aos" data-aos="fade-up">
+                <div class="section-sub-head feature-head text-center mb-0">
+                    <h2>Latest Blogs</h2>
+                    <div class="section-text aos" data-aos="fade-up">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
+                            accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel blogs-slide owl-theme aos" data-aos="fade-up">
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-01.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">Attract More Attention Sales And Profits</a></h5>
+                        <p>Marketing</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Jun 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-02.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">11 Tips to Help You Get New Clients</a></h5>
+                        <p>Sales Order</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>May 20, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-03.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">An Overworked Newspaper Editor</a></h5>
+                        <p>Design</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>May 25, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-04.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">A Solution Built for Teachers</a></h5>
+                        <p>Seo</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Jul 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-02.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">Attract More Attention Sales And Profits</a></h5>
+                        <p>Marketing</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Sep 25, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-03.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">An Overworked Newspaper Editor</a></h5>
+                        <p>Marketing</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>May 25, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-04.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">A Solution Built for Teachers</a></h5>
+                        <p>Analysis</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>May 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-02.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">11 Tips to Help You Get New Clients</a></h5>
+                        <p>Development</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Jun 20, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-03.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">An Overworked Newspaper Editor</a></h5>
+                        <p>Sales</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>May 25, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructors-widget blog-widget">
+                    <div class="instructors-img">
+                        <a href="blog-list.html">
+                            <img class="img-fluid" alt="Img" src="/assets/img/blog/blog-04.jpg">
+                        </a>
+                    </div>
+                    <div class="instructors-content text-center">
+                        <h5><a href="blog-list.html">A Solution Built for Teachers</a></h5>
+                        <p>Marketing</p>
+                        <div class="student-count d-flex justify-content-center">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>April 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="enroll-group aos" data-aos="fade-up">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="total-course d-flex align-items-center">
+                            <div class="blur-border">
+                                <div class="enroll-img ">
+                                    <img src="/assets/img/icon/icon-07.svg" alt="Img" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="course-count">
+                                <h3><span class="counterUp">253,085</span></h3>
+                                <p>STUDENTS ENROLLED</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="total-course d-flex align-items-center">
+                            <div class="blur-border">
+                                <div class="enroll-img ">
+                                    <img src="/assets/img/icon/icon-08.svg" alt="Img" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="course-count">
+                                <h3><span class="counterUp">1,205</span></h3>
+                                <p>TOTAL COURSES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="total-course d-flex align-items-center">
+                            <div class="blur-border">
+                                <div class="enroll-img ">
+                                    <img src="/assets/img/icon/icon-09.svg" alt="Img" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="course-count">
+                                <h3><span class="counterUp">127</span></h3>
+                                <p>COUNTRIES</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab-course">
+                <div class="section-header aos" data-aos="fade-up">
+                    <div class="section-sub-head feature-head text-center">
+                        <h2>Unlimited access to 360+ courses <br>and 1,600+ hands-on labs</h2>
+                    </div>
+                </div>
+                <div class="icon-group aos" data-aos="fade-up">
+                    <div class="offset-lg-1 col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-09.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-10.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-16.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-12.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-13.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-14.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-15.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-16.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-17.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-3">
+                                <div class="total-course d-flex align-items-center">
+                                    <div class="blur-border">
+                                        <div class="enroll-img ">
+                                            <img src="/assets/img/icon/icon-18.svg" alt="Img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

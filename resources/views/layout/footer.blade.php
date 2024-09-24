@@ -1,118 +1,105 @@
 
+<footer class="footer">
 
-<div class="footer-area pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="footer-logo-area">
-                    <a href="index.html"><img src="assets/images/white-logo.png" alt="Image"></a>
-                    <p>Sanu University was established by J.H Merthon in 1810 for the public benefit. Afterwards, it
-                        is recognized globally</p>
-                    <div class="contact-list">
-                        <ul>
-                            <li><a href="tel:+01987655567685">+01-9876-5556-7685
-                                </a></li>
-                            <li><a href="/cdn-cgi/l/email-protection#18797c757176586b79766d367d7c6d"><span
-                                        class="__cf_email__"
-                                        data-cfemail="6706030a0e09271406091249020312">[email&#160;protected]</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-widjet">
-                    <h3>Campus Life</h3>
-                    <div class="list">
-                        <ul>
-                            <li><a href="campus-life.html">Accessibility</a></li>
-                            <li><a href="campus-life.html">Financial Aid</a></li>
-                            <li><a href="campus-life.html">Food Services</a></li>
-                            <li><a href="campus-life.html">Housing</a></li>
-                            <li><a href="campus-life.html">Information Technologies</a></li>
-                            <li><a href="campus-life.html">Student Life</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-widjet">
-                    <h3>Our Campus</h3>
-                    <div class="list">
-                        <ul>
-                            <li><a href="campus-life.html">Acedemic</a></li>
-                            <li><a href="campus-life.html">Planning & AdminiStartion</a></li>
-                            <li><a href="campus-life.html">Campus Safety</a></li>
-                            <li><a href="campus-life.html">Office of the Chancellor</a></li>
-                            <li><a href="campus-life.html">Facility Services</a></li>
-                            <li><a href="campus-life.html">Human Resources</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <div class="footer-widjet">
-                    <h3>Academics</h3>
-                    <div class="list">
-                        <ul>
-                            <li><a href="academics.html">Canvas</a></li>
-                            <li><a href="academics.html">Catalyst</a></li>
-                            <li><a href="academics.html">Library</a></li>
-                            <li><a href="academics.html">Time Schedule</a></li>
-                            <li><a href="academics.html">Apply For Admissions</a></li>
-                            <li><a href="academics.html">Pay My Tuition</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape">
-            <img src="assets/images/shape-1.png" alt="Image">
-        </div>
-    </div>
-</div>
-
-
-<div class="copyright-area">
-    <div class="container">
-        <div class="copyright">
+    <div class="footer-top aos" data-aos="fade-up">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-4">
-                    <div class="social-content">
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="footer-widget footer-about">
+                        <div class="footer-logo">
+                            <img src="assets/img/logo.svg" alt="logo">
+                        </div>
+                        <div class="footer-about-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-6">
+
+                    <div class="footer-widget footer-menu">
+                        <h2 class="footer-title">For Instructor</h2>
                         <ul>
-                            <li><span>Follow Us On</span></li>
-                            <li>
-                                <a href="https://www.facebook.com" target="_blank"><i
-                                        class="ri-facebook-fill"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.twitter.com" target="_blank"><i
-                                        class="ri-twitter-fill"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/?lang=en" target="_blank"><i
-                                        class="ri-instagram-line"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/?lang=en" target="_blank"><i
-                                        class="ri-linkedin-fill"></i></a>
-                            </li>
+                            <li><a href="instructor-profile.html">Profile</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="instructor-list.html">Instructor</a></li>
+                            <li><a href="instructor-dashboard.html"> Dashboard</a></li>
                         </ul>
                     </div>
+
                 </div>
-                <div class="col-lg-6 col-md-8">
-                    <div class="copy">
-                        <p>© Sanu is Proudly Owned by <a href="https://hibootstrap.com/"
-                                target="_blank">HiBootstrap</a></p>
+                <div class="col-lg-2 col-md-6">
+
+                    <div class="footer-widget footer-menu">
+                        <h2 class="footer-title">For Student</h2>
+                        <ul>
+                            <li><a href="student-profile.html">Profile</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="students-list.html">Student</a></li>
+                            <li><a href="student-dashboard.html"> Dashboard</a></li>
+                        </ul>
                     </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="footer-widget footer-contact">
+                        <h2 class="footer-title">News letter</h2>
+                        <div class="news-letter">
+                            <form>
+                                <input type="text" class="form-control"
+                                    placeholder="Enter your email address" name="email">
+                            </form>
+                        </div>
+                        <div class="footer-contact-info">
+                            <div class="footer-address">
+                                <img src="assets/img/icon/icon-20.svg" alt="Img" class="img-fluid">
+                                <p> 3556 Beech Street, San Francisco,<br> California, CA 94108 </p>
+                            </div>
+                            <p>
+                                <img src="assets/img/icon/icon-19.svg" alt="Img" class="img-fluid">
+                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="fd998f989c908e91908ebd98859c908d9198d39e9290">[email&#160;protected]</a>
+                            </p>
+                            <p class="mb-0">
+                                <img src="assets/img/icon/icon-21.svg" alt="Img" class="img-fluid">
+                                +19 123-456-7890
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
-<div class="go-top">
-    <i class="ri-arrow-up-s-line"></i>
-    <i class="ri-arrow-up-s-line"></i>
-</div>
+    <div class="footer-bottom">
+        <div class="container">
+
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="privacy-policy">
+                            <ul>
+                                <li><a href="term-condition.html">Terms</a></li>
+                                <li><a href="privacy-policy.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-text">
+                            <p class="mb-0">&copy; 2024 DreamsLMS. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>

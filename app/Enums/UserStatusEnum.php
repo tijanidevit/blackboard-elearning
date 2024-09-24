@@ -5,7 +5,8 @@ namespace App\Enums;
 enum UserStatusEnum: string
 {
     case PENDING = 'pending';
-    case APPROVED = 'approved';
+    case ACTIVE = 'active';
+    case INACTIVE = 'inactive';
     case DECLINED = 'declined';
 
 

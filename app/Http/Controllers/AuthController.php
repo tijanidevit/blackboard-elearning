@@ -8,7 +8,6 @@ use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -35,13 +34,16 @@ class AuthController extends Controller
 
         DB::transaction(function () use($data) {
             if ($data['role'] == UserRoleEnum::TUTOR->value) {
-                $data['status'] == UserStatusEnum::APPROVED->value;
+                $data['status'] = UserStatusEnum::PENDING->value;
             }
 
             $user = User::create($data);
             Auth::login($user);
         });
-        return redirect()->intended('/');
+
+        if ($data['role'] == UserRoleEnum::TUTOR->value) {
+            return to_route('tutor.profile');
+        }
     }
 
     public function logout() : RedirectResponse {
