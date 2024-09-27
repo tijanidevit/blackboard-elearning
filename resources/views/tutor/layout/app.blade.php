@@ -83,6 +83,7 @@
 
                                     <li class="nav-item">
                                         <form class="nav-link" action="{{route('logout')}}" method="post">
+                                            @csrf
                                             <button class="nav-link">
                                                 <i class="bx bxs-log-out"></i>Logout
                                             </button>

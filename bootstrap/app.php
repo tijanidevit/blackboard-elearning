@@ -4,6 +4,7 @@ use App\Http\Middleware\IsAdminMiddleware;
 use App\Http\Middleware\IsStudentMiddleware;
 use App\Http\Middleware\IsTutorMiddleware;
 use App\Http\Middleware\IsTutorProfileCreatedMiddleware;
+use App\Http\Middleware\IsUserActiveMiddleware;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -21,6 +22,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'isTutor' => IsTutorMiddleware::class,
             'isStudent' => IsStudentMiddleware::class,
             'isTutorProfileCreated' => IsTutorProfileCreatedMiddleware::class,
+            'isUserActive' => IsUserActiveMiddleware::class,
         ])
         ->redirectGuestsTo(function (Request $request) {
             route('login');

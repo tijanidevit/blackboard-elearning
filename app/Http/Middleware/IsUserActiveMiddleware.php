@@ -16,8 +16,9 @@ class IsUserActiveMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth()->user()->status !== UserStatusEnum::ACTIVE->value) {
-            return abort(403);
+        $status = auth()->user()->status;
+        if ($status !== UserStatusEnum::ACTIVE->value) {
+            return to_route('tutor.profile')->with('warning', "Your account is currently $status.");
         }
         return $next($request);
     }

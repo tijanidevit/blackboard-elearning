@@ -11,9 +11,21 @@ class DashboardController extends Controller
 {
     public function index() : View {
 
-        $totalEnrolledCourses = CourseEnrollment::whereHas('course', function ($query) {
+        $tutor = auth()->user()->tutor;
+
+        $enrollmentQuery = CourseEnrollment::whereHas('course', function ($query) {
             $query->where('tutor_id', auth()->id());
         });
-        return view('tutor.dashboard');
+
+        $totalEnrolledCourses = $enrollmentQuery->count();
+
+        $totalCourses = $tutor->courses->count();
+        $activeCourses = $tutor->courses()->onlyActive()->count();
+
+        $latestCourses = $tutor->courses()->withCount('enrollments')->latest()->limit(5)->get();
+
+        $latestEnrollments = $enrollmentQuery->with('course')->latest()->limit(5)->get();
+
+        return view('tutor.dashboard', compact('totalEnrolledCourses', 'totalCourses', 'activeCourses', 'latestCourses', 'latestEnrollments'));
     }
 }

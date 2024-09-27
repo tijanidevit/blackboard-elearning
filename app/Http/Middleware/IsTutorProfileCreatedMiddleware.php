@@ -15,7 +15,7 @@ class IsTutorProfileCreatedMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (!auth()->user()->profile) {
+        if (!auth()->user()->tutor) {
             return to_route('tutor.profile')->with('info', 'Please update your profile to continue!');
         }
         return $next($request);

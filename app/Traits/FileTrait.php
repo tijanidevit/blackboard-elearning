@@ -7,9 +7,7 @@ use Illuminate\Support\Facades\Storage;
 
 trait FileTrait
 {
-    public function uploadBase64File() {
 
-    }
     public function uploadFile($folder, $file)
     {
         return url(Storage::url(Storage::putFile("$folder", $file)));

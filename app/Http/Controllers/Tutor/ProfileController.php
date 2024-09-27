@@ -20,6 +20,7 @@ class ProfileController extends Controller
 
     public function update(UpdateProfileRequest $request) : RedirectResponse {
         $data = $request->validated();
+        $previousImage = auth()->user()->tutor?->image;
 
         if (isset($data['image'])) {
             $data['image'] = $this->uploadFile('tutor', $data['image']);
@@ -29,6 +30,10 @@ class ProfileController extends Controller
             ['user_id' => auth()->id()],
             $data
         );
+
+        if ($previousImage) {
+            $this->deleteFile($previousImage);
+        }
 
         return back()->with('success', 'Profile updated successfully!');
     }

@@ -9312,7 +9312,7 @@ textarea:focus {
 }
 
 /*-----------------
-	Achieve your Goals 
+	Achieve your Goals
 -----------------------*/
 
 .goals-section-five {
@@ -21174,7 +21174,7 @@ h6 {
 }
 .dark .selection .select2-selection {
   background: #131022;
- 
+
 }
 .dark .selection .select2-selection option {
   color: #B9B7C0;
@@ -30148,4 +30148,9 @@ color: #B9B7C0 ;
   .settings-pg-links li {
     width: 100%;
   }
+}
+
+
+.text-title{
+    text-transform: capitalize;
 }

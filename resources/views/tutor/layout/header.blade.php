@@ -28,16 +28,13 @@
                             <a href="{{route('tutor.dashboard')}}">Dashboard
                         </li>
                         <li class="">
-                            <a href="{{route('tutor.dashboard')}}">My courses
+                            <a href="{{route('tutor.course.index')}}">My courses
                         </li>
                         <li class="">
-                            <a href="{{route('tutor.dashboard')}}">Profile
+                            <a href="{{route('tutor.profile')}}">Profile
                         </li>
                         <li class="">
-                            <a href="{{route('tutor.dashboard')}}">Notifications
-                        </li>
-                        <li class="login-link">
-                            <a href="login.html">Login / Signup</a>
+                            <a href="#">Notifications
                         </li>
                     </ul>
                 </div>
@@ -52,10 +49,11 @@
                             </a>
                         </div>
                     </li>
+                    @if (auth()->user()->tutor)
                     <li class="nav-item user-nav">
                         <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
                             <span class="user-img">
-                                <img src="/assets/img/user/user-17.jpg" alt="Img">
+                                <img src="{{auth()->user()->tutor->image}}" alt="Img">
                                 <span class="status online"></span>
                             </span>
                         </a>
@@ -63,22 +61,26 @@
                             data-popper-placement="bottom-end">
                             <div class="user-header">
                                 <div class="avatar avatar-sm">
-                                    <img src="/assets/img/user/user-17.jpg" alt="User Image"
+                                    <img src="{{auth()->user()->tutor->image}}" alt="User Image"
                                         class="avatar-img rounded-circle">
                                 </div>
                                 <div class="user-text">
-                                    <h6>Eugene Andre</h6>
-                                    <p class="text-muted mb-0">Instructor</p>
+                                    <h6>{{auth()->user()->name}}</h6>
+                                    <p class="text-muted mb-0 text-title">{{auth()->user()->role}}</p>
                                 </div>
                             </div>
-                            <a class="dropdown-item" href="instructor-dashboard.html"><i
-                                    class="feather-home me-1"></i> Dashboard</a>
-                            <a class="dropdown-item" href="instructor-settings.html"><i
-                                    class="feather-star me-1"></i> Edit Profile</a>
-                            <a class="dropdown-item" href="{{route('tutor.dashboard')}}"><i class="feather-log-out me-1"></i>
-                                Logout</a>
+                            <a class="dropdown-item" href="{{route('tutor.profile')}}">
+                                <i class="fa fa-user me-1"></i>
+                                Edit Profile
+                            </a>
+                            <form class="dropdown-item" method="POST" action="{{route('logout')}}">
+                                @csrf
+                                <i class="fa fa-arrow-left me-1"></i>
+                                <button class="btn btn-danger">Logout</button>
+                            </form>
                         </div>
                     </li>
+                    @endif
                 </ul>
             </div>
         </nav>
