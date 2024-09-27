@@ -120,7 +120,7 @@
                                                         class="me-2">{{$content->title}}
                                                 </p>
                                                 <div>
-                                                    <a href="">View</a>
+                                                    <a href="{{route('tutor.module.content.show', $content->id)}}">View</a>
                                                     <span>{{$content->complete_timeframe}}</span>
                                                 </div>
                                             </li>

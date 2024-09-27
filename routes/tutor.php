@@ -31,6 +31,7 @@ Route::middleware('isTutor')->as('tutor.')->prefix('tutor')->group(function () {
 
             Route::as('module.content.')->prefix('modules/{moduleId}')->group(function () {
                 Route::get('contents/new', [ModuleContentController::class, 'create'])->name('create');
+                Route::get('contents/{contentId}', [ModuleContentController::class, 'show'])->name('show');
                 Route::post('', [ModuleContentController::class, 'store'])->name('store');
             });
 
