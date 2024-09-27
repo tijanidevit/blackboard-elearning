@@ -33,9 +33,9 @@
                         <li class="">
                             <a href="{{route('tutor.profile')}}">Profile
                         </li>
-                        <li class="">
+                        {{-- <li class="">
                             <a href="#">Notifications
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
                 <ul class="nav header-navbar-rht">

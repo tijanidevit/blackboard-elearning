@@ -20,10 +20,10 @@ class ModuleContentController extends Controller
         return view('tutor.content.create', compact('module'));
     }
 
-    public function show($contentId): View
+    public function show($moduleId, $contentId): View
     {
-        $module = CourseModule::where('id', $contentId)->with('module.course')->firstOrFail();
-        return view('tutor.content.show', compact('module'));
+        $content = ModuleContent::where(['id' => $contentId, 'module_id' => $moduleId])->with('module.course')->firstOrFail();
+        return view('tutor.content.show', compact('content'));
     }
 
     public function store(StoreContentRequest $request): RedirectResponse

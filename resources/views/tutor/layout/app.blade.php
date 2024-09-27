@@ -64,11 +64,11 @@
                                             <i class="bx bxs-rocket"></i>My Courses
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a href="{{route('tutor.course.index')}}" class="nav-link">
                                             <i class="bx bxs-volume-full"></i>Announcements
                                         </a>
-                                    </li>
+                                    </li> --}}
                                     {{-- <li class="nav-item">
                                         <a href="instructor-assignment.html" class="nav-link ">
                                             <i class="bx bxs-file"></i>Assignments
