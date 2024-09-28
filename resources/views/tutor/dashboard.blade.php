@@ -82,61 +82,7 @@
             <div class="row">
 
                 @forelse ($latestEnrollments as $enrollment)
-
-                <div class="col-xxl-4 col-md-6 d-flex">
-                    <div class="course-box flex-fill">
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="course-details.html">
-                                    <img class="img-fluid" alt="Img"
-                                        src="assets/img/course/course-03.jpg">
-                                </a>
-                                {{-- <div class="price combo">
-                                    <h3>FREE</h3>
-                                </div> --}}
-                            </div>
-                            <div class="product-content">
-                                <div class="course-group d-flex">
-                                    <div class="course-group-img d-flex">
-                                        <a href="instructor-profile.html"><img
-                                                src="assets/img/user/user5.jpg" alt="Img"
-                                                class="img-fluid"></a>
-                                        <div class="course-name">
-                                            <h4><a href="instructor-profile.html">Jenny</a></h4>
-                                            <p>Instructor</p>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="course-share d-flex align-items-center justify-content-center">
-                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
-                                    </div>
-                                </div>
-                                <h3 class="title instructor-text"><a href="course-details.html">Sketch
-                                        from
-                                        A to Z (2024): Become an app designer</a></h3>
-                                <div class="course-info d-flex align-items-center">
-                                    <div class="rating-img d-flex align-items-center">
-                                        <img src="assets/img/icon/icon-01.svg" alt="Img">
-                                        <p>10+ Lesson</p>
-                                    </div>
-                                    <div class="course-view d-flex align-items-center">
-                                        <img src="assets/img/icon/icon-02.svg" alt="Img">
-                                        <p>40hr 10min</p>
-                                    </div>
-                                </div>
-                                <div class="rating mb-0">
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="d-inline-block average-rating"><span>3.0</span>
-                                        (18)</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <x-course-card course="{{$enrollment->course}}" />
                 @empty
                 <div class="text-center">
                     <x-empty-table message="None of your courses was recently enrolled" />

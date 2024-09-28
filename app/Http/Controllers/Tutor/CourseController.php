@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Tutor;
 
 use App\Enums\CourseCategoryEnum;
+use App\Enums\CourseStatusEnum;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Tutor\Course\AddModuleRequest;
 use App\Http\Requests\Tutor\Course\StoreCourseRequest;
@@ -10,7 +11,6 @@ use App\Models\Course;
 use App\Models\CourseModule;
 use App\Traits\FileTrait;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class CourseController extends Controller
@@ -19,10 +19,13 @@ class CourseController extends Controller
 
     public function index(): View
     {
-        $tutor = auth()->user()->tutor;
+        $tutor = tutor();
+        $courses = $tutor->courses()->with('tutor.user')->withCount('enrollments')->latest()->paginate();
+
 
         $totalCourses = $tutor->courses->count();
-        return view('tutor.dashboard');
+        $publishedCourses = $tutor->courses()->onlyPublished()->count();
+        return view('tutor.course.index', compact('courses', 'totalCourses', 'publishedCourses'));
     }
 
     public function create(): View
@@ -48,6 +51,20 @@ class CourseController extends Controller
         $course = Course::create($data);
 
         return to_route('tutor.course.show', $course->slug);
+    }
+
+    public function updateStatus($id): RedirectResponse
+    {
+        $tutor = tutor();
+        $course = $tutor->courses()->where('id', $id)->with('tutor.user', 'modules.contents')->withCount('enrollments')->firstOrFail();
+
+        $status = CourseStatusEnum::PUBLISHED->value;
+        if ($course->status == $status) {
+            $status = CourseStatusEnum::DRAFT->value;
+        }
+        $course->update(['status' => $status]);
+
+        return back()->with('status-success', 'Course status updated successfully');
     }
 
     public function addModule(AddModuleRequest $request): RedirectResponse

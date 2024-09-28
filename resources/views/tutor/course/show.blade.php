@@ -20,7 +20,7 @@
                                         </div>
                                         <div class="instructor-detail me-3">
                                             <h5><a href="#">{{ $course->tutor->user->name }}</a></h5>
-                                            <p>UX/UI Designer</p>
+                                            <p>{{$course->tutor->occupation}}</p>
                                         </div>
                                     </div>
                                     <span class="web-badge mb-3">{{ $course->category }}</span>
@@ -35,6 +35,10 @@
                                     <div class="cou-info">
                                         <img src="/assets/img/icon/people.svg" alt="Img">
                                         <p>{{ $course->enrollments_count }} enrolled</p>
+                                    </div>
+                                    <div class="cou-info">
+                                        <img src="/assets/img/icon/notification.svg" alt="Img">
+                                        <p>Status: <span class="badge badge-{{$course->status_color}}">{{ $course->status }}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +79,18 @@
             <div class="col-md-12">
                 <div class="card overview-sec">
                     <div class="card-body">
-                        <h5 class="subs-title">Description</h5>
+                        <x-success-alert key="status-success" />
+                        <div class="d-flex justify-content-between justify-items-center mb-3">
+                            <h5 class="subs-title">Description</h5>
+                            @if ($course->isDraft())
+                            <div>
+                                <form action="{{route('tutor.course.updateStatus', $course->id)}}" method="POST">
+                                    @csrf
+                                    <button class="btn btn-success">Publish Course</button>
+                                </form>
+                            </div>
+                            @endif
+                        </div>
                         {!! $course->description !!}
                     </div>
                 </div>

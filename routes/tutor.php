@@ -22,6 +22,7 @@ Route::middleware('isTutor')->as('tutor.')->prefix('tutor')->group(function () {
                 Route::get('', [CourseController::class, 'index'])->name('index');
                 Route::get('new', [CourseController::class, 'create'])->name('create');
                 Route::post('', [CourseController::class, 'store'])->name('store');
+                Route::post('{courseId}/status', [CourseController::class, 'updateStatus'])->name('updateStatus');
                 Route::get('{course}', [CourseController::class, 'show'])->name('show');
             });
 

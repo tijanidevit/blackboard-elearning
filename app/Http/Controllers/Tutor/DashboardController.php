@@ -20,7 +20,7 @@ class DashboardController extends Controller
         $totalEnrolledCourses = $enrollmentQuery->count();
 
         $totalCourses = $tutor->courses->count();
-        $activeCourses = $tutor->courses()->onlyActive()->count();
+        $activeCourses = $tutor->courses()->onlyPublished()->count();
 
         $latestCourses = $tutor->courses()->withCount('enrollments')->latest()->limit(5)->get();
 

@@ -4,7 +4,7 @@ namespace App\Enums;
 
 enum CourseStatusEnum: string
 {
-    case ACTIVE = 'active';
+    case PUBLISHED = 'published';
     case DRAFT = 'draft';
 
 

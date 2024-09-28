@@ -46,14 +46,22 @@ class Course extends Model
         return $query->whereStatus(CourseStatusEnum::DRAFT->value);
     }
 
-    public function scopeOnlyActive($query) : Builder {
-        return $query->whereStatus(CourseStatusEnum::ACTIVE->value);
+    public function scopeOnlyPublished($query) : Builder {
+        return $query->whereStatus(CourseStatusEnum::PUBLISHED->value);
+    }
+
+    public function isDraft() : bool {
+        return $this->status == CourseStatusEnum::DRAFT->value;
     }
 
     public function getExcerptAttribute() : string {
         $length = 50;
         $cleanContent = strip_tags($this->description);
         return mb_strimwidth($cleanContent, 0, $length, '...');
+    }
+
+    public function getStatusColorAttribute() : string {
+        return $this->status == CourseStatusEnum::DRAFT->value ? 'warning' : 'success';
     }
 
 }
