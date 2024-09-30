@@ -4,17 +4,16 @@ namespace App\Http\Controllers\Tutor;
 
 use App\Http\Controllers\Controller;
 use App\Models\CourseEnrollment;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class DashboardController extends Controller
 {
     public function index() : View {
 
-        $tutor = auth()->user()->tutor;
+        $tutor = tutor();
 
         $enrollmentQuery = CourseEnrollment::whereHas('course', function ($query) {
-            $query->where('tutor_id', auth()->id());
+            $query->where('tutor_id', tutor()->id);
         });
 
         $totalEnrolledCourses = $enrollmentQuery->count();

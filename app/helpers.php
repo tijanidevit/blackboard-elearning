@@ -2,7 +2,7 @@
 
 if (!function_exists('tutorId')) {
     function tutorId() {
-        return auth()->check() ? auth()->user()->tutor->id : null;
+        return auth()->check() ? auth()->user()->tutor?->id : null;
     }
 }
 

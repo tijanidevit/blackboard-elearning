@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="cou-info">
                                         <img src="/assets/img/icon/notification.svg" alt="Img">
-                                        <p>Status: <span class="badge badge-{{$course->status_color}}">{{ $course->status }}</span></p>
+                                        <p>Status: <span class="text-title badge badge-{{$course->status_color}}">{{ $course->status }}</span></p>
                                     </div>
                                 </div>
                             </div>

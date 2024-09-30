@@ -6,6 +6,7 @@ namespace App\Models;
 
 use App\Enums\UserRoleEnum;
 use App\Enums\UserStatusEnum;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -59,6 +60,19 @@ class User extends Authenticatable
         return $this->hasOne(Tutor::class);
     }
 
+
+
+    public function scopeOnlyTutor($query) : Builder {
+        return $query->whereStatus(UserRoleEnum::TUTOR->value);
+    }
+
+    public function scopeOnlyStudent($query) : Builder {
+        return $query->whereStatus(UserRoleEnum::STUDENT->value);
+    }
+
+    public function scopeOnlyAdmin($query) : Builder {
+        return $query->whereStatus(UserRoleEnum::ADMIN->value);
+    }
 
     public function isAdmin() : bool {
         return $this->role == UserRoleEnum::ADMIN->value;

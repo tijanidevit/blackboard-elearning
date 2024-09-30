@@ -17,15 +17,16 @@
                         <ul class="nav">
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="active" data-bs-toggle="tab"
-                                    data-bs-target="#enroll-courses">Total Courses ({{$totalCourses}})</a>
+                                    data-bs-target="#enroll-courses">Total Courses ({{ $totalCourses }})</a>
                             </li>
                             <li class="nav-item">
-                                <a href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#active-courses">Published
-                                    ({{$publishedCourses}})</a>
+                                <a href="javascript:void(0);" data-bs-toggle="tab"
+                                    data-bs-target="#active-courses">Published
+                                    ({{ $publishedCourses }})</a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#complete-courses">Draft
-                                    ({{$totalCourses - $publishedCourses}})</a>
+                                    ({{ $totalCourses - $publishedCourses }})</a>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +35,9 @@
                             <div class="row">
 
                                 @forelse ($courses as $course)
-                                    <x-course-card :course="$course" />
+                                    <div class="col-xxl-4 col-md-6 d-flex">
+                                        <x-course-card :course="$course" />
+                                    </div>
                                 @empty
                                     <p>No courses available at the moment.</p>
                                 @endforelse
@@ -46,25 +49,7 @@
                 </div>
             </div>
         </div>
-        <div class="dash-pagination">
-            <div class="row align-items-center">
-                <div class="col-6">
-                    <p>Page 1 of 2</p>
-                </div>
-                <div class="col-6">
-                    <ul class="pagination">
-                        <li class="active">
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="bx bx-chevron-right"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+        {{$courses->links()}}
     </div>
 @endsection

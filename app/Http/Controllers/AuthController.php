@@ -44,10 +44,12 @@ class AuthController extends Controller
         if ($data['role'] == UserRoleEnum::TUTOR->value) {
             return to_route('tutor.profile');
         }
+        return redirect()->intended('/');
+
     }
 
     public function logout() : RedirectResponse {
         Auth::logout();
-        return redirect()->intended('/');
+        return redirect('/');
     }
 }
